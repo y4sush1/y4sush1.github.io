@@ -4,7 +4,6 @@
 body {
     background-image: linear-gradient(120deg, #3131eb, #93e908);
     min-height: 100vh;
-    cursor: none;
     user-select: none;
     -webkit-user-select: none;
 }
@@ -13,29 +12,6 @@ body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-}
-
-.cursor{
-    position: absolute;
-    width: 40px;
-    height:40px;
-    pointer-events: none;
-    border: 5px solid rgb(255, 9, 9);
-    border-radius: 50%;
-    animation : rotation 20s infinite;
-    transform: rotate(45deg);
-  }
-
-  .animclic{
-    animation: animclic 0.4s;
-  }
-  @keyframes animclic{
-    0%{
-      transform: Scale(1.2);
-    }
-    50%{
-      transform: scale(0.5);
-    }
 }
   
 .header {
