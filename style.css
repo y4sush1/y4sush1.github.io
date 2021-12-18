@@ -123,7 +123,6 @@ h1 {
     display: flex;
     text-align: center;
     justify-content: center;
-    cursor: none;
     border-radius: 50px;
     transition: 400ms;
 }
